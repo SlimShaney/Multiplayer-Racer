@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class enemyScript : MonoBehaviour {
-    /*
+    
     private UnityEngine.AI.NavMeshAgent m_NavMeshAgent;
     private int m_CurrentWaypoint;
 
@@ -14,6 +14,8 @@ public class enemyScript : MonoBehaviour {
 
         m_CurrentWaypoint = 0;
 
+        m_NavMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+
         m_NavMeshAgent.updatePosition = false;
         m_NavMeshAgent.updateRotation = true;
 
@@ -22,9 +24,10 @@ public class enemyScript : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        CheckPlayer();
+        Patrol();
+        //CheckPlayer();
         m_NavMeshAgent.nextPosition = transform.position;
-
+        /*
         switch (m_NPCState)
         {
             case NPCState.CHASE:
@@ -35,17 +38,17 @@ public class enemyScript : MonoBehaviour {
                 break;
             default:
                 break;
-        }
+        }*/
     }
 
     void Patrol()
     {
         //Debug.Log("Patrolling");
 
-        CheckWaypointDistance();
+        //CheckWaypointDistance();
         m_NavMeshAgent.SetDestination(m_Waypoints[m_CurrentWaypoint].position);
     }
-
+    /*
     void CheckWaypointDistance()
     {
         if (Vector3.Distance(m_Waypoints[m_CurrentWaypoint].position, this.transform.position) < m_ThresholdDistance)

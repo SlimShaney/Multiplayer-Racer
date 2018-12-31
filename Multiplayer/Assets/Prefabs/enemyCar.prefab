@@ -460,6 +460,7 @@ GameObject:
   - component: {fileID: 54553240484812542}
   - component: {fileID: 114997470268500292}
   - component: {fileID: 114834181665882458}
+  - component: {fileID: 195715325611339616}
   m_Layer: 0
   m_Name: enemyCar
   m_TagString: Untagged
@@ -3029,8 +3030,8 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: aa36da9c6fc253a4881ea53707a543da, type: 2}
-  - {fileID: 2100000, guid: 9c5d686dc1065fa4fb07bb91a28baa25, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3101,9 +3102,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: aa36da9c6fc253a4881ea53707a543da, type: 2}
-  - {fileID: 0}
-  - {fileID: 2100000, guid: 9c5d686dc1065fa4fb07bb91a28baa25, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3490,9 +3491,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: aa36da9c6fc253a4881ea53707a543da, type: 2}
-  - {fileID: 0}
-  - {fileID: 2100000, guid: 9c5d686dc1065fa4fb07bb91a28baa25, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3667,17 +3668,17 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: aa36da9c6fc253a4881ea53707a543da, type: 2}
-  - {fileID: 2100000, guid: 9c5d686dc1065fa4fb07bb91a28baa25, type: 2}
-  - {fileID: 0}
-  - {fileID: 2100000, guid: 47f34e06fb8c7984db37f033dcfda029, type: 2}
-  - {fileID: 2100000, guid: 0a5d78c3e1415ac40a0e25976aaae858, type: 2}
-  - {fileID: 2100000, guid: 3ff81be07d516b84498d830e113ce20d, type: 2}
-  - {fileID: 2100000, guid: ca15278988a972e498139a4b1b6b8ce9, type: 2}
-  - {fileID: 2100000, guid: e7c201546902c694084067c04832f71f, type: 2}
-  - {fileID: 0}
-  - {fileID: 2100000, guid: 9c5d686dc1065fa4fb07bb91a28baa25, type: 2}
-  - {fileID: 2100000, guid: c759fce7a5dd6dc4ea2792a428e94050, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3995,7 +3996,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: aa36da9c6fc253a4881ea53707a543da, type: 2}
+  - {fileID: 2100000, guid: 9739ba42c4571694f8b5cbb20a14980e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5996,6 +5997,27 @@ WheelCollider:
     m_AsymptoteValue: 0.75
     m_Stiffness: 1
   m_Enabled: 1
+--- !u!195 &195715325611339616
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1251407620563126}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!198 &198846640950223440
 ParticleSystem:
   m_ObjectHideFlags: 1
